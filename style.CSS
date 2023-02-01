@@ -1,0 +1,121 @@
+
+html{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 50% 50%;   
+    
+}
+
+.navbar li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    
+
+}
+.navbar img{
+    width: 25px;
+    margin-right: 20px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.gauche ul li {
+   display: flex;
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+
+.droite ul li {
+    display: flex;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.droite{
+    text-align: right;
+    
+}
+
+.center{
+    display: grid;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 6rem;
+display: flex;
+justify-content: center;
+  
+   
+}
+.search input{
+    width: 50%;
+    padding: 15px;
+    border: 10px;
+    background-color: aliceblue;
+}
+
+.button input{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.tout{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: gainsboro;
+    font-size: 1,5rem;
+    text-transform: capitalize;
+   
+}
+.moi ul li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    
+
+}
+.toi ul li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+  
+}
+.toi{
+    text-align: right;
+    padding-right: 20px;
+}
+.tout li{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bleu{
+    color: blue;
+}
+.orange{
+    color: orange
+}
+.vert{
+    color: green;
+}
+.rouge {
+    color: red;
+}
+
